@@ -10,12 +10,61 @@
               font-family: 'Lato', sans-serif;
           }
       </style>
+          <style>
+.button {
+  border: solid;
+  border-width: 5px;
+  border-color: rgb(100,175,250);
+  color: black;
+  border-radius: 7px;
+  padding: 15px 32px;
+  text-stroke: 3px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(0,0,0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  background-color: rgb(100,175,250);
+}
+            .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+            .button:hover {
+              background-color: rgb(150,225,250);
+            }        
+            
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
   </head>
   <body>
     <h1>About this website</h1>
     <p>This website was formerly a test website. Now it is offically an official website for myself. This website is a work in progress and is in testing/beta phase and will be improving soon</p>
     <form action="https://adsbv.github.io/">
-      <button type="submit" style="height:75px;width:500px">Click here to go back to main page</button>
+      <button class="button"><span>Click here to go back to main page </span></button>
     </form>
   </body>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8264504686119661"
