@@ -1,0 +1,98 @@
+.button {
+  border: solid;
+  border-width: 5px;
+  border-color: rgb(100,175,250);
+  color: black;
+  border-radius: 7px;
+  padding: 15px 32px;
+  text-stroke: 3px;
+  position: relative;
+    left: 250px;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgb(0,0,0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  background-color: rgb(100,175,250);
+}
+            .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+            div.relative {
+  position: relative;
+  left: 600px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+              
+a {
+  border: solid;
+  border-width: 5px;
+  border-color: rgb(100,175,250);
+  color: black;
+  border-radius: 7px;
+  padding: 15px 32px;
+  text-stroke: 3px;
+  position: relative;
+    left: 250px;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgb(0,0,0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  background-color: rgb(100,175,250);
+}
+a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+a:hover span {
+  padding-right: 25px;
+}
+            div.relative {
+  position: relative;
+  left: 600px;
+}
+a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
