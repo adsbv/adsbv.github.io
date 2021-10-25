@@ -90,7 +90,7 @@ a:hover span {
 }
             div.relative {
   position: relative;
-  left: 600px;
+  left: 1000px;
 }
 a:hover span:after {
   opacity: 1;
